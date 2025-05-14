@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RapidFund Lending</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #1d2b1f;
+    }
+    header {
+      background-color: #1d2b1f;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .hero {
+      background: url('hero-image.jpg') center/cover no-repeat;
+      padding: 4rem 2rem;
+      text-align: center;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero button {
+      background-color: #1d2b1f;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .features, .contact {
+      display: grid;
+      gap: 1.5rem;
+    }
+    .features div {
+      background: #f4f4f4;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #1d2b1f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .logo {
+      max-height: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo-white-bg.png" alt="RapidFund Lending Logo" class="logo" />
+    <h1>RapidFund Lending</h1>
+    <p>Veteran-Owned | Fast & Reliable Real Estate Funding</p>
+  </header>
+
+  <section class="hero">
+    <h1>Fast Funding for Real Estate Investors</h1>
+    <button>Get Funded Now</button>
+  </section>
+
+  <section class="section features">
+    <h2>Why Choose RapidFund?</h2>
+    <div>
+      <h3>Speed</h3>
+      <p>Close in as little as 3–7 days. We know time is money.</p>
+    </div>
+    <div>
+      <h3>Flexibility</h3>
+      <p>No income verification, credit-flexible options. We focus on the deal.</p>
+    </div>
+    <div>
+      <h3>Veteran-Owned</h3>
+      <p>Founded by a U.S. veteran—committed to integrity and service.</p>
+    </div>
+  </section>
+
+  <section class="section contact">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+      <label for="message">Tell us about your deal:</label><br />
+      <textarea id="message" name="message" rows="5" required></textarea><br />
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 RapidFund Lending | All rights reserved
+  </footer>
+</body>
+</html>
